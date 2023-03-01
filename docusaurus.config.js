@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'YBN Marketplace Documentation',
-  tagline: 'Discord: soon',
+  tagline: 'Offical documentation for the YBN Marketplace',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -72,7 +72,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'index',
             position: 'left',
             label: 'Docs',
           },
@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs',
               },
             ],
           },
