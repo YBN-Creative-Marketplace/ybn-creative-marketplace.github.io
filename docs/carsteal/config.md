@@ -66,6 +66,71 @@ Change to the framework you are using
 set carsteal:framework "esx"
 ```
 
+## Lockpick
 
+### Alarm
+
+Chance in %
+```
+setr carsteal:chanceToLockpickAlarm 50
+```
+
+Time in seconds
+```
+setr carsteal:lockpickAlarmTime 20
+```
+
+### Item
+
+Name of the item used for lockpick
+
+```
+set carsteal:lockpickItem "lockpick"
+```
+
+How many lockpicks you can use in a given time
+```
+set lockpick:max_lockpicks 3
+```
+
+The time when the lockpick cooldown resets in seconds
+```
+set lockpick:unlock_time 60000
+```
+
+### Difficulty
+
+Difficulty for the lockpick minigame easy/medium/hard
+
+- More on this [here](https://overextended.github.io/docs/ox_lib/Interface/Client/skillcheck)
+
+```
+setr carsteal:lockpickDifficulty "easy"
+```
+
+How often the skillcheck should be repeated
+
+```
+setr carsteal:lockpickSkillCheckRepeats 3
+```
+
+### Animation
+
+Animation displayed when lockpicking a car
+
+- Dictionary
+    ```
+    setr carsteal:lockpickAnimationDictionary "mini@repair"
+    ```
+
+- Name
+    ```
+    setr carsteal:lockpickAnimationName "fixing_a_player"
+    ```
+
+- Flag
+    ```
+    setr carsteal:lockpickAnimationFlag 49
+    ```
 
 
