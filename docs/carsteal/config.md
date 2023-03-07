@@ -133,4 +133,102 @@ Animation displayed when lockpicking a car
     setr carsteal:lockpickAnimationFlag 49
     ```
 
+## Hotwire
+
+### Alarm
+
+Chance in %
+```
+setr carsteal:chanceToHotwireAlarm 50
+```
+
+Time in seconds
+```
+setr carsteal:hotwireAlarmTime 20
+```
+
+### Item
+
+Name of the item used for hotwire
+
+```
+set carsteal:hotwireItem "hotwire"
+```
+
+### Difficulty
+
+Difficulty for the hotwire minigame easy/medium/hard
+
+- More on this [here](https://overextended.github.io/docs/ox_lib/Interface/Client/skillcheck)
+
+```
+setr carsteal:hotwireDifficulty "easy"
+```
+
+How often the skillcheck should be repeated
+
+```
+setr carsteal:hotwireSkillCheckRepeats 3
+```
+
+### Animation
+
+Animation displayed when hotwireing a car
+
+- Dictionary
+    ```
+    setr carsteal:hotwireAnimationDictionary "mini@repair"
+    ```
+
+- Name
+    ```
+    setr carsteal:hotwireAnimationName "fixing_a_player"
+    ```
+
+- Flag
+    ```
+    setr carsteal:hotwireAnimationFlag 49
+    ```
+
+## Search
+
+### Time
+
+Time in seconds for the player search the car
+
+```
+setr carsteal:search_time 10
+```
+
+### Items
+
+Items that can be found
+
+(itemname) / (minAmount) / (maxAmount) / (chanceInPercent)
+
+```
+setr carsteal:search_items [
+    ["bread", 1, 2, 100],
+    ["water", 1, 2, 50]
+]
+```
+
+### Animation
+
+Animation displayed when searching the car
+
+- Dictionary
+    ```
+    setr carsteal:searchAnimationDictionary "amb@world_human_gardener_plant@male@base"
+    ```
+
+- Name
+    ```
+    setr carsteal:hotwireAnimationName "base"
+    ```
+
+- Flag
+    ```
+    setr carsteal:hotwireAnimationFlag 49
+    ```
 
